@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+.header{position:fixed;left:0;top:0;z-index:9999;width:100%;border-bottom:3px solid #3b3b3b;padding:23px 0 22px;background:white;}
+.header_left>div:first-child{width:60px;margin-right:20px;overflow:hidden;}
+/* 이미지[이름]선택자 */
+img[src*=line-img]{width:100%;}
+.header_left>div:last-child{margin-top:1px;}
+.header_left li a{font-size:13px;}
+.header_left li a span{display:inline-block;width:1px;margin:0 15px;height:13px;background:#ccc;}
+.header_left li a::after{content:'';display:inline-block;}
+.header_right select,.header_right>a{display:inline-block;}
+select{border-color:#00b900;padding:0 20px 5px;}
+.header_right>a{background-image:url('../image/icon-set.png');text-indent:-3000px;}
+.header_right>a:first-of-type{width:46px;height:18px;margin:0 12px;background-position:-1057px 0;}
+.header_right>a:last-of-type{width:10px;height:18px;background-position:-817px 0;}

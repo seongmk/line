@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+.main_banner{width:100%;margin-top:72px;}
+div[class*=banner]{height:418px;background-size:200%;background-repeat:no-repeat;background-position:center;text-indent:-3000px;}
+.banner01{background-image:url('../image/main_banner01.png');}
+.banner02{background-image:url('../image/main_banner02.png');}
+.banner03{background-image:url('../image/main_banner03.png');}
+.banner04{background-image:url('../image/main_banner04.png');}
+.bx-wrapper {border:none;}
+.bx-wrapper .bx-pager{bottom:33px;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover{background:#666;}
+.bx-wrapper .bx-pager.bx-default-pager a.active{background:#fff;}
